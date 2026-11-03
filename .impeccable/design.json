@@ -1,0 +1,89 @@
+﻿{
+    "schemaVersion":  2,
+    "generatedAt":  "2026-10-24T11:03:38.1215932Z",
+    "title":  "Design System: Laboratori i kërkimit të painformuar",
+    "extensions":  {
+                       "colorMeta":  {
+                                         "primary":  {
+                                                         "displayName":  "E gjelbër e laboratorit",
+                                                         "role":  "primary"
+                                                     },
+                                         "background":  {
+                                                            "displayName":  "Letër e çelët",
+                                                            "role":  "neutral"
+                                                        },
+                                         "secondary-background":  {
+                                                                      "displayName":  "Sipërfaqe e ftohtë",
+                                                                      "role":  "neutral"
+                                                                  },
+                                         "text":  {
+                                                      "displayName":  "Bojë e errët",
+                                                      "role":  "neutral"
+                                                  },
+                                         "supporting-text":  {
+                                                                 "displayName":  "Tekst ndihmës i theksuar",
+                                                                 "role":  "neutral"
+                                                             }
+                                     },
+                       "typographyMeta":  {
+                                              "body":  {
+                                                           "displayName":  "Teksti bazë",
+                                                           "purpose":  "Familja sans-serif; shkalla konkrete mbetet native në Streamlit."
+                                                       },
+                                              "table-header":  {
+                                                                   "displayName":  "Kreu i tabelës",
+                                                                   "purpose":  "Pesha e personalizuar e krerëve në zonën kryesore."
+                                                               }
+                                          }
+                   },
+    "components":  [
+                       {
+                           "name":  "Përshkrimi ndihmës",
+                           "kind":  "custom",
+                           "refersTo":  "caption",
+                           "description":  "Mostër e rregullit të personalizuar për ngjyrën dhe opacitetin; tipografia përreth mbetet native në aplikacion.",
+                           "html":  "\u003cp class=\"ds-caption\"\u003ePema është mostër e kufizuar. Degët e tjera mund të jenë lënë jashtë.\u003c/p\u003e",
+                           "css":  ".ds-caption { color: #41566a; opacity: 1; }"
+                       },
+                       {
+                           "name":  "Kreu i tabelës",
+                           "kind":  "custom",
+                           "refersTo":  "table-header",
+                           "description":  "Mostër e rregullit të personalizuar për krerët; kufijtë dhe hapësirat e tabelës mbeten native në aplikacion.",
+                           "html":  "\u003ctable\u003e\u003cthead\u003e\u003ctr\u003e\u003cth class=\"ds-table-header\"\u003eKoha (s)\u003c/th\u003e\u003cth class=\"ds-table-header\"\u003eTë zgjeruara\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003e0.0304\u003c/td\u003e\u003ctd\u003e5848\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e",
+                           "css":  ".ds-table-header { color: #41566a; font-weight: 600; }"
+                       }
+                   ],
+    "narrative":  {
+                      "northStar":  "Laboratori akademik i çelët",
+                      "overview":  "Ndërfaqja e miratuar i jep përparësi leximit të parametrave, rezultateve dhe krahasimeve në një ambient studimi me dritë. Identiteti mbështetet te sfondi i çelët, navigimi anësor, tabelat dhe pema pranë zgjidhjes në desktop. Modaliteti është Operate për ekzekutimin dhe Read për shpjegimet.\n\nKy dokument përshkruan ndërfaqen e ndërtuar nga kodi; nuk ka kompozim vizual të miratuar nga një imazh. Burimet autoritative janë tema në `.streamlit/config.toml` dhe paraqitja në `app.py`. Streamlit zotëron kontrollet, fokusin, gjendjet dhe sjelljen responsive. Aplikacioni shton rregullat për tekstin ndihmës dhe krerët e tabelave. Pamjet në `.impeccable/review/` ilustrojnë paraqitjen desktop dhe mobile.",
+                      "keyCharacteristics":  [
+                                                 "Sipërfaqe të çelëta dhe theks i përmbajtur i gjelbër.",
+                                                 "Hierarki native, tabela të lexueshme dhe shpjegime në shqip.",
+                                                 "Zgjidhje dhe pemë në kolona të barabarta në desktop; njëra pas tjetrës në mobile.",
+                                                 "Status i shprehur me tekst dhe komponentët native të Streamlit."
+                                             ],
+                      "rules":  [
+                                    {
+                                        "section":  "colors",
+                                        "body":  "Teksti ndihmës mbetet plotësisht opak; mos e zbeh për ta dalluar nga teksti kryesor.",
+                                        "name":  "The Kontrasti i shpjegimeve Rule"
+                                    }
+                                ],
+                      "dos":  [
+                                  "**Do** ruaj sfondin e çelët, navigimin anësor dhe hierarkinë akademike të miratuar.",
+                                  "**Do** ruaj zgjidhjen dhe pemën pranë njëra-tjetrës në desktop dhe vertikalisht në mobile.",
+                                  "**Do** përdor tokenin e tekstit ndihmës me opacitet të plotë për përshkrimet dhe krerët e tabelave sipas kodit.",
+                                  "**Do** shpjego statusin me tekst dhe ruaj legjendën e pemës.",
+                                  "**Do** përdor kontrollet dhe sjelljet native të Streamlit.",
+                                  "**Do** mbaj të dukshme prejardhjen e dëshmisë nga literatura dhe dallimin e saj nga ekzekutimet DFS."
+                              ],
+                      "donts":  [
+                                    "**Don\u0027t** shto dekorime ose lëvizje që pengojnë vëzhgimin e rezultateve.",
+                                    "**Don\u0027t** zëvendëso tabelat krahasuese me karta dekorative.",
+                                    "**Don\u0027t** deklaro font, rreze, hije, hapësira ose breakpoint të personalizuar pa burim në implementim.",
+                                    "**Don\u0027t** paraqit ndërprerjen nga kufijtë si provë pamundësie ose pemën e kufizuar si pemë të plotë.",
+                                    "**Don\u0027t** paraqit dëshminë e botuar si rezultat të DFS të këtij projekti."
+                                ]
+                  }
+}

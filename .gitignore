@@ -1,0 +1,10 @@
+.venv/
+.tools/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+outputs/**/*.png
+outputs/**/*.svg
+outputs/.matplotlib/
+outputs/.pytest-tmp/
+outputs/.pytest-tmp*/
