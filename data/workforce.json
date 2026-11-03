@@ -1,0 +1,11 @@
+{
+  "employees": 6,
+  "days": 7,
+  "shifts_per_day": 2,
+  "demand": [1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+  "max_shifts": 4,
+  "rest_slots": 1,
+  "unavailable": [[0,0],[1,1]],
+  "unwanted": [[2,0]],
+  "preference_weight": 2
+}
