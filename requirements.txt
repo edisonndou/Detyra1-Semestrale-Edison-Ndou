@@ -1,0 +1,5 @@
+pytest>=8,<10
+matplotlib>=3.8,<4
+networkx>=3.2,<4
+graphviz>=0.20,<1
+streamlit>=1.40,<2
