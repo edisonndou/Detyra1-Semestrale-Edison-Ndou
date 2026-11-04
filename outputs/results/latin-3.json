@@ -1,0 +1,597 @@
+{
+  "status": "solved",
+  "path": [
+    [],
+    [
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      2,
+      3,
+      2
+    ],
+    [
+      1,
+      2,
+      3,
+      2,
+      3
+    ],
+    [
+      1,
+      2,
+      3,
+      2,
+      3,
+      1
+    ],
+    [
+      1,
+      2,
+      3,
+      2,
+      3,
+      1,
+      3
+    ],
+    [
+      1,
+      2,
+      3,
+      2,
+      3,
+      1,
+      3,
+      1
+    ],
+    [
+      1,
+      2,
+      3,
+      2,
+      3,
+      1,
+      3,
+      1,
+      2
+    ]
+  ],
+  "actions": [
+    "R1K1 = 1",
+    "R1K2 = 2",
+    "R1K3 = 3",
+    "R2K1 = 2",
+    "R2K2 = 3",
+    "R2K3 = 1",
+    "R3K1 = 3",
+    "R3K2 = 1",
+    "R3K3 = 2"
+  ],
+  "stats": {
+    "expanded": 49,
+    "generated": 60,
+    "rejected": 26,
+    "backtracks": 50,
+    "max_frontier": 10,
+    "max_depth": 9,
+    "max_recursion_depth": 0,
+    "elapsed_seconds": 0.0012668000417761505,
+    "depth_limits": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "trace": [
+    {
+      "id": 0,
+      "parent": null,
+      "state": "()",
+      "action": "Fillimi",
+      "depth": 0,
+      "rejected": false
+    },
+    {
+      "id": 1,
+      "parent": null,
+      "state": "()",
+      "action": "Fillimi",
+      "depth": 0,
+      "rejected": false
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "state": "(1,)",
+      "action": "R1K1 = 1",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 3,
+      "parent": null,
+      "state": "()",
+      "action": "Fillimi",
+      "depth": 0,
+      "rejected": false
+    },
+    {
+      "id": 4,
+      "parent": 3,
+      "state": "(1,)",
+      "action": "R1K1 = 1",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 5,
+      "parent": 4,
+      "state": "(1, 2)",
+      "action": "R1K2 = 2",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 6,
+      "parent": null,
+      "state": "()",
+      "action": "Fillimi",
+      "depth": 0,
+      "rejected": false
+    },
+    {
+      "id": 7,
+      "parent": 6,
+      "state": "(1,)",
+      "action": "R1K1 = 1",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 8,
+      "parent": 7,
+      "state": "(1, 2)",
+      "action": "R1K2 = 2",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 9,
+      "parent": 8,
+      "state": "(1, 2, 3)",
+      "action": "R1K3 = 3",
+      "depth": 3,
+      "rejected": false
+    },
+    {
+      "id": 10,
+      "parent": null,
+      "state": "()",
+      "action": "Fillimi",
+      "depth": 0,
+      "rejected": false
+    },
+    {
+      "id": 11,
+      "parent": 10,
+      "state": "(1,)",
+      "action": "R1K1 = 1",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 12,
+      "parent": 11,
+      "state": "(1, 2)",
+      "action": "R1K2 = 2",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 13,
+      "parent": 12,
+      "state": "(1, 2, 3)",
+      "action": "R1K3 = 3",
+      "depth": 3,
+      "rejected": false
+    },
+    {
+      "id": 14,
+      "parent": 13,
+      "state": "(1, 2, 3, 2)",
+      "action": "R2K1 = 2",
+      "depth": 4,
+      "rejected": false
+    },
+    {
+      "id": 15,
+      "parent": null,
+      "state": "()",
+      "action": "Fillimi",
+      "depth": 0,
+      "rejected": false
+    },
+    {
+      "id": 16,
+      "parent": 15,
+      "state": "(1,)",
+      "action": "R1K1 = 1",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 17,
+      "parent": 16,
+      "state": "(1, 2)",
+      "action": "R1K2 = 2",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 18,
+      "parent": 17,
+      "state": "(1, 2, 3)",
+      "action": "R1K3 = 3",
+      "depth": 3,
+      "rejected": false
+    },
+    {
+      "id": 19,
+      "parent": 18,
+      "state": "(1, 2, 3, 2)",
+      "action": "R2K1 = 2",
+      "depth": 4,
+      "rejected": false
+    },
+    {
+      "id": 20,
+      "parent": 19,
+      "state": "(1, 2, 3, 2, 1)",
+      "action": "R2K2 = 1",
+      "depth": 5,
+      "rejected": false
+    },
+    {
+      "id": 21,
+      "parent": 19,
+      "state": "(1, 2, 3, 2, 3)",
+      "action": "R2K2 = 3",
+      "depth": 5,
+      "rejected": false
+    },
+    {
+      "id": 22,
+      "parent": null,
+      "state": "()",
+      "action": "Fillimi",
+      "depth": 0,
+      "rejected": false
+    },
+    {
+      "id": 23,
+      "parent": 22,
+      "state": "(1,)",
+      "action": "R1K1 = 1",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 24,
+      "parent": 23,
+      "state": "(1, 2)",
+      "action": "R1K2 = 2",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 25,
+      "parent": 24,
+      "state": "(1, 2, 3)",
+      "action": "R1K3 = 3",
+      "depth": 3,
+      "rejected": false
+    },
+    {
+      "id": 26,
+      "parent": 25,
+      "state": "(1, 2, 3, 2)",
+      "action": "R2K1 = 2",
+      "depth": 4,
+      "rejected": false
+    },
+    {
+      "id": 27,
+      "parent": 26,
+      "state": "(1, 2, 3, 2, 1)",
+      "action": "R2K2 = 1",
+      "depth": 5,
+      "rejected": false
+    },
+    {
+      "id": 28,
+      "parent": 26,
+      "state": "(1, 2, 3, 2, 3)",
+      "action": "R2K2 = 3",
+      "depth": 5,
+      "rejected": false
+    },
+    {
+      "id": 29,
+      "parent": 28,
+      "state": "(1, 2, 3, 2, 3, 1)",
+      "action": "R2K3 = 1",
+      "depth": 6,
+      "rejected": false
+    },
+    {
+      "id": 30,
+      "parent": null,
+      "state": "()",
+      "action": "Fillimi",
+      "depth": 0,
+      "rejected": false
+    },
+    {
+      "id": 31,
+      "parent": 30,
+      "state": "(1,)",
+      "action": "R1K1 = 1",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 32,
+      "parent": 31,
+      "state": "(1, 2)",
+      "action": "R1K2 = 2",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 33,
+      "parent": 32,
+      "state": "(1, 2, 3)",
+      "action": "R1K3 = 3",
+      "depth": 3,
+      "rejected": false
+    },
+    {
+      "id": 34,
+      "parent": 33,
+      "state": "(1, 2, 3, 2)",
+      "action": "R2K1 = 2",
+      "depth": 4,
+      "rejected": false
+    },
+    {
+      "id": 35,
+      "parent": 34,
+      "state": "(1, 2, 3, 2, 1)",
+      "action": "R2K2 = 1",
+      "depth": 5,
+      "rejected": false
+    },
+    {
+      "id": 36,
+      "parent": 34,
+      "state": "(1, 2, 3, 2, 3)",
+      "action": "R2K2 = 3",
+      "depth": 5,
+      "rejected": false
+    },
+    {
+      "id": 37,
+      "parent": 36,
+      "state": "(1, 2, 3, 2, 3, 1)",
+      "action": "R2K3 = 1",
+      "depth": 6,
+      "rejected": false
+    },
+    {
+      "id": 38,
+      "parent": 37,
+      "state": "(1, 2, 3, 2, 3, 1, 3)",
+      "action": "R3K1 = 3",
+      "depth": 7,
+      "rejected": false
+    },
+    {
+      "id": 39,
+      "parent": null,
+      "state": "()",
+      "action": "Fillimi",
+      "depth": 0,
+      "rejected": false
+    },
+    {
+      "id": 40,
+      "parent": 39,
+      "state": "(1,)",
+      "action": "R1K1 = 1",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 41,
+      "parent": 40,
+      "state": "(1, 2)",
+      "action": "R1K2 = 2",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 42,
+      "parent": 41,
+      "state": "(1, 2, 3)",
+      "action": "R1K3 = 3",
+      "depth": 3,
+      "rejected": false
+    },
+    {
+      "id": 43,
+      "parent": 42,
+      "state": "(1, 2, 3, 2)",
+      "action": "R2K1 = 2",
+      "depth": 4,
+      "rejected": false
+    },
+    {
+      "id": 44,
+      "parent": 43,
+      "state": "(1, 2, 3, 2, 1)",
+      "action": "R2K2 = 1",
+      "depth": 5,
+      "rejected": false
+    },
+    {
+      "id": 45,
+      "parent": 43,
+      "state": "(1, 2, 3, 2, 3)",
+      "action": "R2K2 = 3",
+      "depth": 5,
+      "rejected": false
+    },
+    {
+      "id": 46,
+      "parent": 45,
+      "state": "(1, 2, 3, 2, 3, 1)",
+      "action": "R2K3 = 1",
+      "depth": 6,
+      "rejected": false
+    },
+    {
+      "id": 47,
+      "parent": 46,
+      "state": "(1, 2, 3, 2, 3, 1, 3)",
+      "action": "R3K1 = 3",
+      "depth": 7,
+      "rejected": false
+    },
+    {
+      "id": 48,
+      "parent": 47,
+      "state": "(1, 2, 3, 2, 3, 1, 3, 1)",
+      "action": "R3K2 = 1",
+      "depth": 8,
+      "rejected": false
+    },
+    {
+      "id": 49,
+      "parent": null,
+      "state": "()",
+      "action": "Fillimi",
+      "depth": 0,
+      "rejected": false
+    },
+    {
+      "id": 50,
+      "parent": 49,
+      "state": "(1,)",
+      "action": "R1K1 = 1",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 51,
+      "parent": 50,
+      "state": "(1, 2)",
+      "action": "R1K2 = 2",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 52,
+      "parent": 51,
+      "state": "(1, 2, 3)",
+      "action": "R1K3 = 3",
+      "depth": 3,
+      "rejected": false
+    },
+    {
+      "id": 53,
+      "parent": 52,
+      "state": "(1, 2, 3, 2)",
+      "action": "R2K1 = 2",
+      "depth": 4,
+      "rejected": false
+    },
+    {
+      "id": 54,
+      "parent": 53,
+      "state": "(1, 2, 3, 2, 1)",
+      "action": "R2K2 = 1",
+      "depth": 5,
+      "rejected": false
+    },
+    {
+      "id": 55,
+      "parent": 53,
+      "state": "(1, 2, 3, 2, 3)",
+      "action": "R2K2 = 3",
+      "depth": 5,
+      "rejected": false
+    },
+    {
+      "id": 56,
+      "parent": 55,
+      "state": "(1, 2, 3, 2, 3, 1)",
+      "action": "R2K3 = 1",
+      "depth": 6,
+      "rejected": false
+    },
+    {
+      "id": 57,
+      "parent": 56,
+      "state": "(1, 2, 3, 2, 3, 1, 3)",
+      "action": "R3K1 = 3",
+      "depth": 7,
+      "rejected": false
+    },
+    {
+      "id": 58,
+      "parent": 57,
+      "state": "(1, 2, 3, 2, 3, 1, 3, 1)",
+      "action": "R3K2 = 1",
+      "depth": 8,
+      "rejected": false
+    },
+    {
+      "id": 59,
+      "parent": 58,
+      "state": "(1, 2, 3, 2, 3, 1, 3, 1, 2)",
+      "action": "R3K3 = 2",
+      "depth": 9,
+      "rejected": false
+    }
+  ],
+  "message": "",
+  "objective": null,
+  "final_state": [
+    1,
+    2,
+    3,
+    2,
+    3,
+    1,
+    3,
+    1,
+    2
+  ]
+}

@@ -1,0 +1,1000 @@
+{
+  "status": "optimal",
+  "path": [
+    [],
+    [
+      [
+        0
+      ]
+    ],
+    [
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ]
+    ],
+    [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ]
+    ],
+    [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ]
+    ],
+    [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ]
+    ],
+    [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ]
+  ],
+  "actions": [
+    "Dita 1, ndërrimi 1: (0,)",
+    "Dita 1, ndërrimi 2: (1,)",
+    "Dita 2, ndërrimi 1: (2,)",
+    "Dita 2, ndërrimi 2: (3,)",
+    "Dita 3, ndërrimi 1: (4,)",
+    "Dita 3, ndërrimi 2: (5,)",
+    "Dita 4, ndërrimi 1: (0,)",
+    "Dita 4, ndërrimi 2: (1,)",
+    "Dita 5, ndërrimi 1: (2,)",
+    "Dita 5, ndërrimi 2: (3,)",
+    "Dita 6, ndërrimi 1: (4,)",
+    "Dita 6, ndërrimi 2: (5,)",
+    "Dita 7, ndërrimi 1: (0,)",
+    "Dita 7, ndërrimi 2: (1,)"
+  ],
+  "stats": {
+    "expanded": 14,
+    "generated": 72,
+    "rejected": 70,
+    "backtracks": 0,
+    "max_frontier": 58,
+    "max_depth": 14,
+    "max_recursion_depth": 0,
+    "elapsed_seconds": 0.007590499997604638,
+    "depth_limits": []
+  },
+  "trace": [
+    {
+      "id": 0,
+      "parent": null,
+      "state": "()",
+      "action": "Fillimi",
+      "depth": 0,
+      "rejected": false
+    },
+    {
+      "id": 1,
+      "parent": 0,
+      "state": "((0,),)",
+      "action": "Dita 1, ndërrimi 1: (0,)",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 2,
+      "parent": 0,
+      "state": "((1,),)",
+      "action": "Dita 1, ndërrimi 1: (1,)",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 3,
+      "parent": 0,
+      "state": "((2,),)",
+      "action": "Dita 1, ndërrimi 1: (2,)",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 4,
+      "parent": 0,
+      "state": "((3,),)",
+      "action": "Dita 1, ndërrimi 1: (3,)",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 5,
+      "parent": 0,
+      "state": "((4,),)",
+      "action": "Dita 1, ndërrimi 1: (4,)",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 6,
+      "parent": 0,
+      "state": "((5,),)",
+      "action": "Dita 1, ndërrimi 1: (5,)",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 7,
+      "parent": 1,
+      "state": "((0,), (1,))",
+      "action": "Dita 1, ndërrimi 2: (1,)",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 8,
+      "parent": 1,
+      "state": "((0,), (2,))",
+      "action": "Dita 1, ndërrimi 2: (2,)",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 9,
+      "parent": 1,
+      "state": "((0,), (3,))",
+      "action": "Dita 1, ndërrimi 2: (3,)",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 10,
+      "parent": 1,
+      "state": "((0,), (4,))",
+      "action": "Dita 1, ndërrimi 2: (4,)",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 11,
+      "parent": 1,
+      "state": "((0,), (5,))",
+      "action": "Dita 1, ndërrimi 2: (5,)",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 12,
+      "parent": 7,
+      "state": "((0,), (1,), (2,))",
+      "action": "Dita 2, ndërrimi 1: (2,)",
+      "depth": 3,
+      "rejected": false
+    },
+    {
+      "id": 13,
+      "parent": 7,
+      "state": "((0,), (1,), (3,))",
+      "action": "Dita 2, ndërrimi 1: (3,)",
+      "depth": 3,
+      "rejected": false
+    },
+    {
+      "id": 14,
+      "parent": 7,
+      "state": "((0,), (1,), (4,))",
+      "action": "Dita 2, ndërrimi 1: (4,)",
+      "depth": 3,
+      "rejected": false
+    },
+    {
+      "id": 15,
+      "parent": 7,
+      "state": "((0,), (1,), (5,))",
+      "action": "Dita 2, ndërrimi 1: (5,)",
+      "depth": 3,
+      "rejected": false
+    },
+    {
+      "id": 16,
+      "parent": 7,
+      "state": "((0,), (1,), (0,))",
+      "action": "Dita 2, ndërrimi 1: (0,)",
+      "depth": 3,
+      "rejected": false
+    },
+    {
+      "id": 17,
+      "parent": 12,
+      "state": "((0,), (1,), (2,), (3,))",
+      "action": "Dita 2, ndërrimi 2: (3,)",
+      "depth": 4,
+      "rejected": false
+    },
+    {
+      "id": 18,
+      "parent": 12,
+      "state": "((0,), (1,), (2,), (4,))",
+      "action": "Dita 2, ndërrimi 2: (4,)",
+      "depth": 4,
+      "rejected": false
+    },
+    {
+      "id": 19,
+      "parent": 12,
+      "state": "((0,), (1,), (2,), (5,))",
+      "action": "Dita 2, ndërrimi 2: (5,)",
+      "depth": 4,
+      "rejected": false
+    },
+    {
+      "id": 20,
+      "parent": 12,
+      "state": "((0,), (1,), (2,), (0,))",
+      "action": "Dita 2, ndërrimi 2: (0,)",
+      "depth": 4,
+      "rejected": false
+    },
+    {
+      "id": 21,
+      "parent": 12,
+      "state": "((0,), (1,), (2,), (1,))",
+      "action": "Dita 2, ndërrimi 2: (1,)",
+      "depth": 4,
+      "rejected": false
+    },
+    {
+      "id": 22,
+      "parent": 17,
+      "state": "((0,), (1,), (2,), (3,), (4,))",
+      "action": "Dita 3, ndërrimi 1: (4,)",
+      "depth": 5,
+      "rejected": false
+    },
+    {
+      "id": 23,
+      "parent": 17,
+      "state": "((0,), (1,), (2,), (3,), (5,))",
+      "action": "Dita 3, ndërrimi 1: (5,)",
+      "depth": 5,
+      "rejected": false
+    },
+    {
+      "id": 24,
+      "parent": 17,
+      "state": "((0,), (1,), (2,), (3,), (0,))",
+      "action": "Dita 3, ndërrimi 1: (0,)",
+      "depth": 5,
+      "rejected": false
+    },
+    {
+      "id": 25,
+      "parent": 17,
+      "state": "((0,), (1,), (2,), (3,), (1,))",
+      "action": "Dita 3, ndërrimi 1: (1,)",
+      "depth": 5,
+      "rejected": false
+    },
+    {
+      "id": 26,
+      "parent": 17,
+      "state": "((0,), (1,), (2,), (3,), (2,))",
+      "action": "Dita 3, ndërrimi 1: (2,)",
+      "depth": 5,
+      "rejected": false
+    },
+    {
+      "id": 27,
+      "parent": 22,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,))",
+      "action": "Dita 3, ndërrimi 2: (5,)",
+      "depth": 6,
+      "rejected": false
+    },
+    {
+      "id": 28,
+      "parent": 22,
+      "state": "((0,), (1,), (2,), (3,), (4,), (0,))",
+      "action": "Dita 3, ndërrimi 2: (0,)",
+      "depth": 6,
+      "rejected": false
+    },
+    {
+      "id": 29,
+      "parent": 22,
+      "state": "((0,), (1,), (2,), (3,), (4,), (1,))",
+      "action": "Dita 3, ndërrimi 2: (1,)",
+      "depth": 6,
+      "rejected": false
+    },
+    {
+      "id": 30,
+      "parent": 22,
+      "state": "((0,), (1,), (2,), (3,), (4,), (2,))",
+      "action": "Dita 3, ndërrimi 2: (2,)",
+      "depth": 6,
+      "rejected": false
+    },
+    {
+      "id": 31,
+      "parent": 22,
+      "state": "((0,), (1,), (2,), (3,), (4,), (3,))",
+      "action": "Dita 3, ndërrimi 2: (3,)",
+      "depth": 6,
+      "rejected": false
+    },
+    {
+      "id": 32,
+      "parent": 27,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,))",
+      "action": "Dita 4, ndërrimi 1: (0,)",
+      "depth": 7,
+      "rejected": false
+    },
+    {
+      "id": 33,
+      "parent": 27,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (1,))",
+      "action": "Dita 4, ndërrimi 1: (1,)",
+      "depth": 7,
+      "rejected": false
+    },
+    {
+      "id": 34,
+      "parent": 27,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (2,))",
+      "action": "Dita 4, ndërrimi 1: (2,)",
+      "depth": 7,
+      "rejected": false
+    },
+    {
+      "id": 35,
+      "parent": 27,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (3,))",
+      "action": "Dita 4, ndërrimi 1: (3,)",
+      "depth": 7,
+      "rejected": false
+    },
+    {
+      "id": 36,
+      "parent": 27,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (4,))",
+      "action": "Dita 4, ndërrimi 1: (4,)",
+      "depth": 7,
+      "rejected": false
+    },
+    {
+      "id": 37,
+      "parent": 32,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,))",
+      "action": "Dita 4, ndërrimi 2: (1,)",
+      "depth": 8,
+      "rejected": false
+    },
+    {
+      "id": 38,
+      "parent": 32,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (2,))",
+      "action": "Dita 4, ndërrimi 2: (2,)",
+      "depth": 8,
+      "rejected": false
+    },
+    {
+      "id": 39,
+      "parent": 32,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (3,))",
+      "action": "Dita 4, ndërrimi 2: (3,)",
+      "depth": 8,
+      "rejected": false
+    },
+    {
+      "id": 40,
+      "parent": 32,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (4,))",
+      "action": "Dita 4, ndërrimi 2: (4,)",
+      "depth": 8,
+      "rejected": false
+    },
+    {
+      "id": 41,
+      "parent": 32,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (5,))",
+      "action": "Dita 4, ndërrimi 2: (5,)",
+      "depth": 8,
+      "rejected": false
+    },
+    {
+      "id": 42,
+      "parent": 37,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,))",
+      "action": "Dita 5, ndërrimi 1: (2,)",
+      "depth": 9,
+      "rejected": false
+    },
+    {
+      "id": 43,
+      "parent": 37,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (3,))",
+      "action": "Dita 5, ndërrimi 1: (3,)",
+      "depth": 9,
+      "rejected": false
+    },
+    {
+      "id": 44,
+      "parent": 37,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (4,))",
+      "action": "Dita 5, ndërrimi 1: (4,)",
+      "depth": 9,
+      "rejected": false
+    },
+    {
+      "id": 45,
+      "parent": 37,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (5,))",
+      "action": "Dita 5, ndërrimi 1: (5,)",
+      "depth": 9,
+      "rejected": false
+    },
+    {
+      "id": 46,
+      "parent": 37,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (0,))",
+      "action": "Dita 5, ndërrimi 1: (0,)",
+      "depth": 9,
+      "rejected": false
+    },
+    {
+      "id": 47,
+      "parent": 42,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,))",
+      "action": "Dita 5, ndërrimi 2: (3,)",
+      "depth": 10,
+      "rejected": false
+    },
+    {
+      "id": 48,
+      "parent": 42,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (4,))",
+      "action": "Dita 5, ndërrimi 2: (4,)",
+      "depth": 10,
+      "rejected": false
+    },
+    {
+      "id": 49,
+      "parent": 42,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (5,))",
+      "action": "Dita 5, ndërrimi 2: (5,)",
+      "depth": 10,
+      "rejected": false
+    },
+    {
+      "id": 50,
+      "parent": 42,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (0,))",
+      "action": "Dita 5, ndërrimi 2: (0,)",
+      "depth": 10,
+      "rejected": false
+    },
+    {
+      "id": 51,
+      "parent": 42,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (1,))",
+      "action": "Dita 5, ndërrimi 2: (1,)",
+      "depth": 10,
+      "rejected": false
+    },
+    {
+      "id": 52,
+      "parent": 47,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (4,))",
+      "action": "Dita 6, ndërrimi 1: (4,)",
+      "depth": 11,
+      "rejected": false
+    },
+    {
+      "id": 53,
+      "parent": 47,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (5,))",
+      "action": "Dita 6, ndërrimi 1: (5,)",
+      "depth": 11,
+      "rejected": false
+    },
+    {
+      "id": 54,
+      "parent": 47,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (0,))",
+      "action": "Dita 6, ndërrimi 1: (0,)",
+      "depth": 11,
+      "rejected": false
+    },
+    {
+      "id": 55,
+      "parent": 47,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (1,))",
+      "action": "Dita 6, ndërrimi 1: (1,)",
+      "depth": 11,
+      "rejected": false
+    },
+    {
+      "id": 56,
+      "parent": 47,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (2,))",
+      "action": "Dita 6, ndërrimi 1: (2,)",
+      "depth": 11,
+      "rejected": false
+    },
+    {
+      "id": 57,
+      "parent": 52,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (4,), (5,))",
+      "action": "Dita 6, ndërrimi 2: (5,)",
+      "depth": 12,
+      "rejected": false
+    },
+    {
+      "id": 58,
+      "parent": 52,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (4,), (0,))",
+      "action": "Dita 6, ndërrimi 2: (0,)",
+      "depth": 12,
+      "rejected": false
+    },
+    {
+      "id": 59,
+      "parent": 52,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (4,), (1,))",
+      "action": "Dita 6, ndërrimi 2: (1,)",
+      "depth": 12,
+      "rejected": false
+    },
+    {
+      "id": 60,
+      "parent": 52,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (4,), (2,))",
+      "action": "Dita 6, ndërrimi 2: (2,)",
+      "depth": 12,
+      "rejected": false
+    },
+    {
+      "id": 61,
+      "parent": 52,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (4,), (3,))",
+      "action": "Dita 6, ndërrimi 2: (3,)",
+      "depth": 12,
+      "rejected": false
+    },
+    {
+      "id": 62,
+      "parent": 57,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (4,), (5,), (0,))",
+      "action": "Dita 7, ndërrimi 1: (0,)",
+      "depth": 13,
+      "rejected": false
+    },
+    {
+      "id": 63,
+      "parent": 57,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (4,), (5,), (1,))",
+      "action": "Dita 7, ndërrimi 1: (1,)",
+      "depth": 13,
+      "rejected": false
+    },
+    {
+      "id": 64,
+      "parent": 57,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (4,), (5,), (2,))",
+      "action": "Dita 7, ndërrimi 1: (2,)",
+      "depth": 13,
+      "rejected": false
+    },
+    {
+      "id": 65,
+      "parent": 57,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (4,), (5,), (3,))",
+      "action": "Dita 7, ndërrimi 1: (3,)",
+      "depth": 13,
+      "rejected": false
+    },
+    {
+      "id": 66,
+      "parent": 57,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (4,), (5,), (4,))",
+      "action": "Dita 7, ndërrimi 1: (4,)",
+      "depth": 13,
+      "rejected": false
+    },
+    {
+      "id": 67,
+      "parent": 62,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,))",
+      "action": "Dita 7, ndërrimi 2: (1,)",
+      "depth": 14,
+      "rejected": false
+    },
+    {
+      "id": 68,
+      "parent": 62,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (4,), (5,), (0,), (2,))",
+      "action": "Dita 7, ndërrimi 2: (2,)",
+      "depth": 14,
+      "rejected": false
+    },
+    {
+      "id": 69,
+      "parent": 62,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (4,), (5,), (0,), (3,))",
+      "action": "Dita 7, ndërrimi 2: (3,)",
+      "depth": 14,
+      "rejected": false
+    },
+    {
+      "id": 70,
+      "parent": 62,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (4,), (5,), (0,), (4,))",
+      "action": "Dita 7, ndërrimi 2: (4,)",
+      "depth": 14,
+      "rejected": false
+    },
+    {
+      "id": 71,
+      "parent": 62,
+      "state": "((0,), (1,), (2,), (3,), (4,), (5,), (0,), (1,), (2,), (3,), (4,), (5,), (0,), (5,))",
+      "action": "Dita 7, ndërrimi 2: (5,)",
+      "depth": 14,
+      "rejected": false
+    }
+  ],
+  "message": "",
+  "objective": 34,
+  "final_state": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ],
+    [
+      5
+    ],
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ],
+    [
+      5
+    ],
+    [
+      0
+    ],
+    [
+      1
+    ]
+  ]
+}

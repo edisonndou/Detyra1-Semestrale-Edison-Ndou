@@ -1,0 +1,250 @@
+{
+  "status": "solved",
+  "path": [
+    [
+      3,
+      3,
+      0
+    ],
+    [
+      3,
+      1,
+      1
+    ],
+    [
+      3,
+      2,
+      0
+    ],
+    [
+      3,
+      0,
+      1
+    ],
+    [
+      3,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      0
+    ],
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "actions": [
+    "0 M, 2 K: majtas → djathtas",
+    "0 M, 1 K: djathtas → majtas",
+    "0 M, 2 K: majtas → djathtas",
+    "0 M, 1 K: djathtas → majtas",
+    "2 M, 0 K: majtas → djathtas",
+    "1 M, 1 K: djathtas → majtas",
+    "2 M, 0 K: majtas → djathtas",
+    "0 M, 1 K: djathtas → majtas",
+    "0 M, 2 K: majtas → djathtas",
+    "0 M, 1 K: djathtas → majtas",
+    "0 M, 2 K: majtas → djathtas"
+  ],
+  "stats": {
+    "expanded": 12,
+    "generated": 19,
+    "rejected": 19,
+    "backtracks": 1,
+    "max_frontier": 12,
+    "max_depth": 11,
+    "max_recursion_depth": 0,
+    "elapsed_seconds": 0.0003708999720402062,
+    "depth_limits": []
+  },
+  "trace": [
+    {
+      "id": 0,
+      "parent": null,
+      "state": "(3, 3, 0)",
+      "action": "Fillimi",
+      "depth": 0,
+      "rejected": false
+    },
+    {
+      "id": 1,
+      "parent": 0,
+      "state": "(3, 2, 1)",
+      "action": "0 M, 1 K: majtas → djathtas",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "state": "(3, 3, 0)",
+      "action": "0 M, 1 K: djathtas → majtas",
+      "depth": 2,
+      "rejected": true
+    },
+    {
+      "id": 3,
+      "parent": 0,
+      "state": "(3, 1, 1)",
+      "action": "0 M, 2 K: majtas → djathtas",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 4,
+      "parent": 3,
+      "state": "(3, 2, 0)",
+      "action": "0 M, 1 K: djathtas → majtas",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 5,
+      "parent": 4,
+      "state": "(3, 1, 1)",
+      "action": "0 M, 1 K: majtas → djathtas",
+      "depth": 3,
+      "rejected": true
+    },
+    {
+      "id": 6,
+      "parent": 4,
+      "state": "(3, 0, 1)",
+      "action": "0 M, 2 K: majtas → djathtas",
+      "depth": 3,
+      "rejected": false
+    },
+    {
+      "id": 7,
+      "parent": 6,
+      "state": "(3, 1, 0)",
+      "action": "0 M, 1 K: djathtas → majtas",
+      "depth": 4,
+      "rejected": false
+    },
+    {
+      "id": 8,
+      "parent": 7,
+      "state": "(3, 0, 1)",
+      "action": "0 M, 1 K: majtas → djathtas",
+      "depth": 5,
+      "rejected": true
+    },
+    {
+      "id": 9,
+      "parent": 7,
+      "state": "(1, 1, 1)",
+      "action": "2 M, 0 K: majtas → djathtas",
+      "depth": 5,
+      "rejected": false
+    },
+    {
+      "id": 10,
+      "parent": 9,
+      "state": "(2, 2, 0)",
+      "action": "1 M, 1 K: djathtas → majtas",
+      "depth": 6,
+      "rejected": false
+    },
+    {
+      "id": 11,
+      "parent": 10,
+      "state": "(1, 1, 1)",
+      "action": "1 M, 1 K: majtas → djathtas",
+      "depth": 7,
+      "rejected": true
+    },
+    {
+      "id": 12,
+      "parent": 10,
+      "state": "(0, 2, 1)",
+      "action": "2 M, 0 K: majtas → djathtas",
+      "depth": 7,
+      "rejected": false
+    },
+    {
+      "id": 13,
+      "parent": 12,
+      "state": "(0, 3, 0)",
+      "action": "0 M, 1 K: djathtas → majtas",
+      "depth": 8,
+      "rejected": false
+    },
+    {
+      "id": 14,
+      "parent": 13,
+      "state": "(0, 2, 1)",
+      "action": "0 M, 1 K: majtas → djathtas",
+      "depth": 9,
+      "rejected": true
+    },
+    {
+      "id": 15,
+      "parent": 13,
+      "state": "(0, 1, 1)",
+      "action": "0 M, 2 K: majtas → djathtas",
+      "depth": 9,
+      "rejected": false
+    },
+    {
+      "id": 16,
+      "parent": 15,
+      "state": "(0, 2, 0)",
+      "action": "0 M, 1 K: djathtas → majtas",
+      "depth": 10,
+      "rejected": false
+    },
+    {
+      "id": 17,
+      "parent": 16,
+      "state": "(0, 1, 1)",
+      "action": "0 M, 1 K: majtas → djathtas",
+      "depth": 11,
+      "rejected": true
+    },
+    {
+      "id": 18,
+      "parent": 16,
+      "state": "(0, 0, 1)",
+      "action": "0 M, 2 K: majtas → djathtas",
+      "depth": 11,
+      "rejected": false
+    }
+  ],
+  "message": "",
+  "objective": null,
+  "final_state": [
+    0,
+    0,
+    1
+  ]
+}

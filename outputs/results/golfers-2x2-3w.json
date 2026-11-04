@@ -1,0 +1,182 @@
+{
+  "status": "solved",
+  "path": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  ],
+  "actions": [
+    "Java 2, grupi 1: (0, 2)",
+    "Java 2, grupi 2: (1, 3)",
+    "Java 3, grupi 1: (0, 3)",
+    "Java 3, grupi 2: (1, 2)"
+  ],
+  "stats": {
+    "expanded": 4,
+    "generated": 5,
+    "rejected": 3,
+    "backtracks": 0,
+    "max_frontier": 5,
+    "max_depth": 4,
+    "max_recursion_depth": 0,
+    "elapsed_seconds": 0.00028609996661543846,
+    "depth_limits": []
+  },
+  "trace": [
+    {
+      "id": 0,
+      "parent": null,
+      "state": "((0, 1), (2, 3))",
+      "action": "Fillimi",
+      "depth": 0,
+      "rejected": false
+    },
+    {
+      "id": 1,
+      "parent": 0,
+      "state": "((0, 1), (2, 3), (0, 2))",
+      "action": "Java 2, grupi 1: (0, 2)",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "state": "((0, 1), (2, 3), (0, 2), (1, 3))",
+      "action": "Java 2, grupi 2: (1, 3)",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 3,
+      "parent": 2,
+      "state": "((0, 1), (2, 3), (0, 2), (1, 3), (0, 3))",
+      "action": "Java 3, grupi 1: (0, 3)",
+      "depth": 3,
+      "rejected": false
+    },
+    {
+      "id": 4,
+      "parent": 3,
+      "state": "((0, 1), (2, 3), (0, 2), (1, 3), (0, 3), (1, 2))",
+      "action": "Java 3, grupi 2: (1, 2)",
+      "depth": 4,
+      "rejected": false
+    }
+  ],
+  "message": "",
+  "objective": null,
+  "final_state": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+name,status,expanded,generated,rejected,backtracks,max_frontier,max_depth,max_recursion_depth,elapsed_seconds,depth_limits,peak_traced_bytes,objective,solution_available
+golfers-2x2-3w,solved,4,5,3,0,5,4,0,0.00028609996661543846,[],9181,,True
+golfers-8x4-2w,solved,8,9,2602,0,9,8,0,0.014505300030577928,[],39083,,True
+golfers-8x4-10w,limit,3960,3960,433319,3929,33,32,0,3.0000178000191227,[],467098,,False
+sudoku-easy,solved,51,52,408,0,1,51,0,0.00963469996349886,[],51795,,True
+sudoku-medium,solved,49,50,392,0,1,49,0,0.008788999984972179,[],49777,,True
+sudoku-hard,solved,2231,2232,17848,0,93,58,0,0.42347640002844855,[],1773743,,True
+latin-3,solved,49,60,26,50,10,9,0,0.0012668000417761505,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",21629,,True
+latin-4,solved,261,308,423,291,17,16,0,0.00540490000275895,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",33161,,True
+latin-5,solved,5848,6761,18751,6735,26,25,0,0.131868900032714,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]",43775,,True
+puzzle-bfs,solved,8,23,7,0,8,2,0,0.00042510003549978137,[],7532,,True
+puzzle-dfs,solved,30,48,17,0,31,30,0,0.0005979000125080347,[],31356,,True
+puzzle-iddfs,solved,4,15,2,10,3,2,0,0.0003063000040128827,"[0, 1, 2]",6524,,True
+missionaries-bfs,solved,14,31,56,0,3,11,0,0.0003671000013127923,[],11830,,True
+missionaries-dfs,solved,12,19,19,1,12,11,0,0.0003708999720402062,[],12438,,True
+workforce-dfs,optimal,14,72,70,0,58,14,0,0.007590499997604638,[],42475,34,True

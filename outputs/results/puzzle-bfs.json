@@ -1,0 +1,252 @@
+{
+  "status": "solved",
+  "path": [
+    [
+      1,
+      2,
+      3,
+      4,
+      0,
+      6,
+      7,
+      5,
+      8
+    ],
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      0,
+      8
+    ],
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      0
+    ]
+  ],
+  "actions": [
+    "Poshtë",
+    "Djathtas"
+  ],
+  "stats": {
+    "expanded": 8,
+    "generated": 23,
+    "rejected": 7,
+    "backtracks": 0,
+    "max_frontier": 8,
+    "max_depth": 2,
+    "max_recursion_depth": 0,
+    "elapsed_seconds": 0.00042510003549978137,
+    "depth_limits": []
+  },
+  "trace": [
+    {
+      "id": 0,
+      "parent": null,
+      "state": "(1, 2, 3, 4, 0, 6, 7, 5, 8)",
+      "action": "Fillimi",
+      "depth": 0,
+      "rejected": false
+    },
+    {
+      "id": 1,
+      "parent": 0,
+      "state": "(1, 0, 3, 4, 2, 6, 7, 5, 8)",
+      "action": "Lart",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 2,
+      "parent": 0,
+      "state": "(1, 2, 3, 4, 5, 6, 7, 0, 8)",
+      "action": "Poshtë",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 3,
+      "parent": 0,
+      "state": "(1, 2, 3, 0, 4, 6, 7, 5, 8)",
+      "action": "Majtas",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 4,
+      "parent": 0,
+      "state": "(1, 2, 3, 4, 6, 0, 7, 5, 8)",
+      "action": "Djathtas",
+      "depth": 1,
+      "rejected": false
+    },
+    {
+      "id": 5,
+      "parent": 1,
+      "state": "(1, 2, 3, 4, 0, 6, 7, 5, 8)",
+      "action": "Poshtë",
+      "depth": 2,
+      "rejected": true
+    },
+    {
+      "id": 6,
+      "parent": 1,
+      "state": "(0, 1, 3, 4, 2, 6, 7, 5, 8)",
+      "action": "Majtas",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 7,
+      "parent": 1,
+      "state": "(1, 3, 0, 4, 2, 6, 7, 5, 8)",
+      "action": "Djathtas",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 8,
+      "parent": 2,
+      "state": "(1, 2, 3, 4, 0, 6, 7, 5, 8)",
+      "action": "Lart",
+      "depth": 2,
+      "rejected": true
+    },
+    {
+      "id": 9,
+      "parent": 2,
+      "state": "(1, 2, 3, 4, 5, 6, 0, 7, 8)",
+      "action": "Majtas",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 10,
+      "parent": 2,
+      "state": "(1, 2, 3, 4, 5, 6, 7, 8, 0)",
+      "action": "Djathtas",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 11,
+      "parent": 3,
+      "state": "(0, 2, 3, 1, 4, 6, 7, 5, 8)",
+      "action": "Lart",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 12,
+      "parent": 3,
+      "state": "(1, 2, 3, 7, 4, 6, 0, 5, 8)",
+      "action": "Poshtë",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 13,
+      "parent": 3,
+      "state": "(1, 2, 3, 4, 0, 6, 7, 5, 8)",
+      "action": "Djathtas",
+      "depth": 2,
+      "rejected": true
+    },
+    {
+      "id": 14,
+      "parent": 4,
+      "state": "(1, 2, 0, 4, 6, 3, 7, 5, 8)",
+      "action": "Lart",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 15,
+      "parent": 4,
+      "state": "(1, 2, 3, 4, 6, 8, 7, 5, 0)",
+      "action": "Poshtë",
+      "depth": 2,
+      "rejected": false
+    },
+    {
+      "id": 16,
+      "parent": 4,
+      "state": "(1, 2, 3, 4, 0, 6, 7, 5, 8)",
+      "action": "Majtas",
+      "depth": 2,
+      "rejected": true
+    },
+    {
+      "id": 17,
+      "parent": 6,
+      "state": "(4, 1, 3, 0, 2, 6, 7, 5, 8)",
+      "action": "Poshtë",
+      "depth": 3,
+      "rejected": false
+    },
+    {
+      "id": 18,
+      "parent": 6,
+      "state": "(1, 0, 3, 4, 2, 6, 7, 5, 8)",
+      "action": "Djathtas",
+      "depth": 3,
+      "rejected": true
+    },
+    {
+      "id": 19,
+      "parent": 7,
+      "state": "(1, 3, 6, 4, 2, 0, 7, 5, 8)",
+      "action": "Poshtë",
+      "depth": 3,
+      "rejected": false
+    },
+    {
+      "id": 20,
+      "parent": 7,
+      "state": "(1, 0, 3, 4, 2, 6, 7, 5, 8)",
+      "action": "Majtas",
+      "depth": 3,
+      "rejected": true
+    },
+    {
+      "id": 21,
+      "parent": 9,
+      "state": "(1, 2, 3, 0, 5, 6, 4, 7, 8)",
+      "action": "Lart",
+      "depth": 3,
+      "rejected": false
+    },
+    {
+      "id": 22,
+      "parent": 9,
+      "state": "(1, 2, 3, 4, 5, 6, 7, 0, 8)",
+      "action": "Djathtas",
+      "depth": 3,
+      "rejected": true
+    }
+  ],
+  "message": "",
+  "objective": null,
+  "final_state": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    0
+  ]
+}

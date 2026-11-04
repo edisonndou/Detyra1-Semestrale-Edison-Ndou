@@ -1,0 +1,1 @@
+"""Kontrata, matje dhe validim."""
